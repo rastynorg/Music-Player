@@ -18,6 +18,17 @@ h1,h2{
     display: block;
     margin: 0px auto;
     margin-bottom: 50px;
+    box-shadow:0px 0px 38px -10px #2980b9 ;
+    animation: glow .5s ease-in-out infinite alternate;
+    animation-play-state: paused;
+}
+@keyframes glow{
+    from{
+        box-shadow:0px 0px 38px -10px #2980b9 ;
+    }
+    to{
+        box-shadow: 0px 0px 38px 10px #2980b9 ;
+    }
 }
 
 #music-range{
